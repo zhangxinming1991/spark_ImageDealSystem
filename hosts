@@ -1,0 +1,20 @@
+127.0.0.1	localhost
+192.168.137.2 hadoop0
+192.168.137.8 hadoop1
+192.168.137.9 hadoop2
+192.168.137.10 hadoop3
+192.168.137.12 hadoop4
+192.168.137.13 hadoop5
+192.168.137.14 hadoop6
+192.168.137.15 hadoop7
+192.168.137.16 hadoop8
+192.168.137.17 hadoop9
+192.168.137.18 hadoop13
+192.168.137.19 hadoop14
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

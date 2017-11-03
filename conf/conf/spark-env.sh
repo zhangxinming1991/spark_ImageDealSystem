@@ -53,7 +53,6 @@ export SPARK_CONF_DIR=/opt/spark/spark-2.0.0-bin-custom-spark/conf
 export SPARK_MASTER_IP=hadoop0
 export SPARK_WORKER_CORES=4
 export SPARK_WORKER_MEMORY=12g
-export SPARK_EXECUTOR_MEMORY=12g
 export SPARK_DRIVER_MEMORY=16g
 #export SPARK_YARN_DRIVER_MEMORYOVERHEAD=10g
 

@@ -1,0 +1,2 @@
+#!/bin/sh
+scp -r /usr/lib/jvm root@hadoop1:/usr/lib/jvm

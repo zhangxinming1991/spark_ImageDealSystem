@@ -1,0 +1,8 @@
+0.replace the file in etc/hadoop/(hadoop installed path) and conf/(spark installed path) with the configure files in this folder.
+
+#do follow steps when add the new node to cluster
+1.configure /etc/hosts, and add new node of cluster
+
+2.configure etc/hadoop/slaves in the hadoop installed path, and add new node of cluster.
+
+3.configure conf/slaves in the spark installed path, and add new node of cluster.

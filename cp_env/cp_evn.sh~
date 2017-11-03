@@ -1,0 +1,12 @@
+#!/bin/sh
+#copy jse
+scp -r /usr/lib/jvm root@hadoop1:/usr/lib/
+
+#copy scala
+scp -r /usr/local/share/scala root@hadoop1:/usr/local/share/
+
+#copy hadoop
+scp -r /usr/local/hadoop root@hadoop1:/usr/local/
+
+#copy spark
+scp -r /opt/spark root@hadoop1:/opt/

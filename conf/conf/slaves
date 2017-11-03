@@ -1,0 +1,12 @@
+# A Spark Worker will be started on each of the machines listed below.
+hadoop1
+#hadoop2
+#hadoop3
+#hadoop4
+#hadoop5
+#hadoop6
+#hadoop7
+#hadoop8
+#hadoop9
+#hadoop13
+#hadoop14

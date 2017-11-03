@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /usr/local/hadoop/hadoop-2.6.4/sbin/

@@ -1,6 +1,6 @@
 #!/bin/sh
 #stop spark
-cd /opt/spark/spark-2.0.0-bin-custom-spark/sbin
+cd /opt/spark/spark-2.2.1-SNAPSHOT-bin-custom-spark/sbin
 ./stop-all.sh
 
 #stop hdfs

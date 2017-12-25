@@ -1,0 +1,7 @@
+1.apt-get install openssh-server
+
+2.set static ip
+
+3.set root ssh login
+
+4.set no passwd root ssh login

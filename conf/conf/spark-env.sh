@@ -49,7 +49,7 @@
 # - SPARK_IDENT_STRING  A string representing this instance of spark. (Default: $USER)
 # - SPARK_NICENESS      The scheduling priority for daemons. (Default: 0)
 
-export SPARK_CONF_DIR=/opt/spark/spark-2.0.0-bin-custom-spark/conf
+export SPARK_CONF_DIR=/opt/spark/spark-2.2.1-SNAPSHOT-bin-custom-spark/conf
 export SPARK_MASTER_IP=hadoop0
 export SPARK_WORKER_CORES=4
 export SPARK_WORKER_MEMORY=12g
@@ -57,3 +57,6 @@ export SPARK_DRIVER_MEMORY=16g
 #export SPARK_YARN_DRIVER_MEMORYOVERHEAD=10g
 
 export HADOOP_CONF_DIR=/usr/local/hadoop-2.6.4/etc/hadoop
+SPARK_JAVA_OPTS+=" -Dspark.local.dir=/home/spark1/,/home/spark2/ -Dhadoop.tmp.dir=/home/hadoop_tmp/"
+
+export SPARK_JAVA_OPTS
